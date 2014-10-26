@@ -2,15 +2,32 @@ THIS IS AN EARLY IN-DEVELOPMENT-REPO, IT'S NOT FINISHED OR STABLE. DO NOT USE IT
 
 # PHP-MICRO
 
-An extremely simple and easy to understand MVC skeleton application, reduced to the max.
-Everything is **as simple as possible**, as **manually as possible** and as readable as possible.
-This project is - by intention - NOT a full framework, it's a bare-bone structure, written in
-purely native PHP ! The php-mvc skeleton tries to be the extremely slimmed down opposite of big frameworks
-like Zend2, Symfony or Laravel.
+[![php-micro, The super-simple barebone PHP application](_tutorial/php-micro-logo.jpg)](http://www.php-micro.com)
+
+An extremely simple and easy to understand MVC skeleton application, reduced to the max. Everything is **as simple as
+possible**, as **manually as possible** and as readable as possible. This project is - by intention - NOT a full
+framework, it's a bare-bone structure, written in purely native PHP ! The php-micro skeleton tries to be the extremely
+slimmed down opposite of big frameworks like Zend2, Symfony or Laravel.
 
 [![Donate by server affiliate sale](_tutorial/support-a2hosting.png)](https://affiliates.a2hosting.com/idevaffiliate.php?id=4471&url=579)
 
-## Basic and Advanced version
+## MICRO, MINI, MEDIUM, MASSIVE
+
+MICRO is the "smallest" version of ...
+
+
+
+
+
+TODO everything below
+
+
+
+
+
+
+
+##
 
 This is the basic version. There's another "Advanced" version in development which has
 additional features, currently Twig and SASS. More to come!
