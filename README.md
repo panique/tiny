@@ -67,6 +67,7 @@ coming soon
 simply because it was much easier to setup and to handle than real frameworks. For several use-cases it's totally okay,
 does the job and there's absolutely no reason to discuss why it's "shit compared to Laravel", why it does not follow 
 several MVC principles or why there's no personal unpaid support or no russian translation or similar weird stuff.
+The trolling against Open-Source-projects (and their authors) has really reached insane dimensions. 
 
 I've written this unpaid, voluntarily, in my free-time and uploaded it on GitHub to share.
 It's totally free, for private and commercial use. If you don't like it, don't use it.
