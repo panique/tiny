@@ -1,7 +1,6 @@
-// common way to initialize jQuery
 $(function() {
 
-    // TODO can a JS expert write this code like it should look like ?
+    // this is just a super-simple demo of JS
 
 	var demoHeaderBox;
 
@@ -21,8 +20,8 @@ $(function() {
         $('#javascript-ajax-button').on('click', function(){
 
             // send an ajax-request to this URL: current-server.com/songs/ajaxGetStats
-            // TODO this will not work directly when using the project in a sub-folder
-            $.ajax("/index.php/songs/ajaxGetStats")
+            // "url" is defined in views/_templates/footer.php
+            $.ajax(url + "songs/ajaxGetStats")
                 .done(function(result) {
                     // this will be executed if the ajax-call was successful
                     // here we get the feedback from the ajax-call (result) and show it in #javascript-ajax-result-box

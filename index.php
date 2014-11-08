@@ -10,8 +10,6 @@
  * @license http://opensource.org/licenses/MIT MIT License
  */
 
-// TODO maybe it's possible to put this into config or so
-
 // set a constant that holds the project's folder path, like "/var/www/".
 // DIRECTORY_SEPARATOR adds a slash to the end of the path
 define('ROOT', __DIR__ . DIRECTORY_SEPARATOR);
