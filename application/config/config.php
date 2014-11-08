@@ -35,21 +35,19 @@ ini_set("display_errors", 1);
  * then replace this line with full URL (and sub-folder) and a trailing slash.
  */
 
-// TODO: get rid of unnecessary constants
-// more https://github.com/panique/php-mvc/commit/f4add025bedb681e467cd8aa8b5883249f0b6d42
-
 define('URL_PROTOCOL', 'http://');
 define('URL_DOMAIN', $_SERVER['HTTP_HOST']);
-//define('URL_SUB_FOLDER', 'subfolder');
-define('URL_INDEX_FILE', 'index.php' . DIRECTORY_SEPARATOR);
+// TODO tiny-master
+define('URL_SUB_FOLDER', 'tiny');
+define('URL_INDEX_FILE', 'index.php' . '/');
 
 // the final URLs, constructed with the elements above
 if (defined('URL_SUB_FOLDER')) {
-    define('URL', URL_PROTOCOL . URL_DOMAIN . DIRECTORY_SEPARATOR . URL_SUB_FOLDER . DIRECTORY_SEPARATOR);
-    define('URL_WITH_INDEX_FILE', URL_PROTOCOL . URL_DOMAIN . DIRECTORY_SEPARATOR . URL_SUB_FOLDER . DIRECTORY_SEPARATOR . URL_INDEX_FILE);
+    define('URL', URL_PROTOCOL . URL_DOMAIN . '/' . URL_SUB_FOLDER . '/');
+    define('URL_WITH_INDEX_FILE', URL_PROTOCOL . URL_DOMAIN . '/' . URL_SUB_FOLDER . '/' . URL_INDEX_FILE);
 } else {
-    define('URL', URL_PROTOCOL . URL_DOMAIN . DIRECTORY_SEPARATOR);
-    define('URL_WITH_INDEX_FILE', URL_PROTOCOL . URL_DOMAIN . DIRECTORY_SEPARATOR . URL_INDEX_FILE);
+    define('URL', URL_PROTOCOL . URL_DOMAIN . '/');
+    define('URL_WITH_INDEX_FILE', URL_PROTOCOL . URL_DOMAIN . '/' . URL_INDEX_FILE);
 }
 
 /**
@@ -58,6 +56,6 @@ if (defined('URL_SUB_FOLDER')) {
  */
 define('DB_TYPE', 'mysql');
 define('DB_HOST', '127.0.0.1');
-define('DB_NAME', 'php-mvc');
+define('DB_NAME', 'tiny');
 define('DB_USER', 'root');
-define('DB_PASS', 'mysql');
+define('DB_PASS', '');
