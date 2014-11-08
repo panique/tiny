@@ -1,12 +1,6 @@
 <?php
 
 /**
- * Configuration
- *
- * For more info about constants please @see http://php.net/manual/en/function.define.php
- */
-
-/**
  * Configuration for: Error reporting
  * Useful to show every little problem during development, but only show hard errors in production
  */
@@ -37,7 +31,7 @@ ini_set("display_errors", 1);
 
 define('URL_PROTOCOL', 'http://');
 define('URL_DOMAIN', $_SERVER['HTTP_HOST']);
-define('URL_SUB_FOLDER', 'tiny-master');
+define('URL_SUB_FOLDER', 'tiny');
 define('URL_INDEX_FILE', 'index.php' . '/');
 
 // the final URLs, constructed with the elements above
