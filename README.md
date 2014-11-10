@@ -32,8 +32,10 @@ TINY in live situations.
 
 ## Installation
 
-1. Edit the database credentials in `application/config/config.php`
-2. Execute the .sql statements in the `_installation/`-folder (with PHPMyAdmin for example).
+1. If you run TINY from within a sub-folder, edit the folder's name in application/config/config.php and change 
+`define('URL_SUB_FOLDER', 'tiny-master');`. If you don't use a sub-folder, then simply comment out this line.  
+2. Edit the database credentials in `application/config/config.php`
+3. Execute the .sql statements in the `_installation/`-folder (with PHPMyAdmin for example).
 
 ## Goodies
 
