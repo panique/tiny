@@ -37,6 +37,9 @@ TINY in live situations.
 2. Edit the database credentials in `application/config/config.php`
 3. Execute the .sql statements in the `_installation/`-folder (with PHPMyAdmin for example).
 
+Here's a simple tutorial on [How to install LAMPP (Linux, Apache, MySQL, PHP, PHPMyAdmin) on Ubuntu 14.04 LTS](http://www.dev-metal.com/installsetup-basic-lamp-stack-linux-apache-mysql-php-ubuntu-14-04-lts/)
+and the same for [Ubuntu 12.04 LTS](http://www.dev-metal.com/setup-basic-lamp-stack-linux-apache-mysql-php-ubuntu-12-04/).
+
 ## Goodies
 
 TINY comes with a little [PDO debugger tool](https://github.com/panique/pdo-debug), trying to emulate your PDO-SQL
