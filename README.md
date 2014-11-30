@@ -60,7 +60,7 @@ If you want to support TINY, then rent your next server at
 
 ## TODO: documentation
 
-coming soon
+A very early documentation can be found on [php-mini.com/documentation](http://php-mini.com/documentation/).
 
 ## Quick-Start
 
