@@ -40,6 +40,33 @@ TINY in live situations.
 Here's a simple tutorial on [How to install LAMPP (Linux, Apache, MySQL, PHP, PHPMyAdmin) on Ubuntu 14.04 LTS](http://www.dev-metal.com/installsetup-basic-lamp-stack-linux-apache-mysql-php-ubuntu-14-04-lts/)
 and the same for [Ubuntu 12.04 LTS](http://www.dev-metal.com/setup-basic-lamp-stack-linux-apache-mysql-php-ubuntu-12-04/).
 
+##Servers configs for
+
+### NGINX
+
+```nginx
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server ipv6only=on;
+
+    root /var/www/tiny;
+    index index.php index.html index.htm;
+
+    server_name localhost;
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }
+
+    location ~ \.php$ {
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        fastcgi_pass unix:/var/run/php5-fpm.sock;
+        fastcgi_index index.php;
+        include fastcgi_params;
+    }
+}
+```
+
 ## Goodies
 
 TINY comes with a little [PDO debugger tool](https://github.com/panique/pdo-debug), trying to emulate your PDO-SQL
