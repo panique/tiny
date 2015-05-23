@@ -1,7 +1,5 @@
 # TINY
 
-[![TINY is an extremely simple naked demo PHP application that runs nearly config-free everywhere.](_installation/php-tiny.png)](http://www.php-mini.com)
-
 TINY is a reduced version on [MINI](https://github.com/panique/mini), an extremely simple and easy to understand demo
 PHP application. TINY is NOT a professional framework, it's the opposite: Just a tiny config-free application. 
 It does not need mod_rewrite and therefore runs everywhere. If you just want to show some pages, do a few database calls 
@@ -79,11 +77,8 @@ This means you can use and modify it for free in private or commercial projects.
 
 ## Support
 
-If you want to support TINY, then rent your next server at
-[A2Hosting](https://affiliates.a2hosting.com/idevaffiliate.php?id=4471&url=579) or donate a coffee via
-[PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=P5YLUK4MW3LDG),
-[GitTip](https://www.gittip.com/Panique/) or
-[Flattr](https://flattr.com/submit/auto?user_id=panique&url=https%3A%2F%2Fgithub.com%2Fpanique%2Ftiny).
+If you want to support TINY, then rent your next server at [Host1Plus](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html) or 
+[DigitalOcean](https://www.digitalocean.com/?refcode=40d978532a20).
 
 ## TODO: documentation
 
@@ -176,20 +171,9 @@ inside the view files (in this case application/views/songs/index.php, in a simp
 ## Dear haters, trolls and everything-sucks-people...
 
 ... TINY is just a even more reduced version of MINI, which is a simple helper-tool I've created for my daily work, 
-simply because it was much easier to setup and to handle than real frameworks. For several use-cases it's totally okay,
-does the job and there's absolutely no reason to discuss why it's "shit compared to Laravel", why it does not follow 
-several MVC principles or why there's no personal unpaid support or no russian translation or similar weird stuff.
-The trolling against Open-Source-projects (and their authors) has really reached insane dimensions. 
+simply because it was much easier to setup and to handle than real frameworks. For several use-cases it's totally okay, does the job and there's absolutely no reason to discuss why it's "shit compared to Laravel", why it does not follow several MVC principles or why there's no personal unpaid support or no russian translation or similar weird stuff. The trolling against Open-Source-projects (and their authors) has really reached insane dimensions. 
 
-I've written this unpaid, voluntarily, in my free-time and uploaded it on GitHub to share.
-It's totally free, for private and commercial use. If you don't like it, don't use it.
-If you see issues, then please write a ticket (and if you are really cool: I'm very thankful for any commits!).
-But don't bash, don't complain, don't hate. Only bad people do so.
-
-## Contribute
-
-Please commit into the develop branch (which holds the in-development version), not into master branch
-(which holds the tested and stable version).
+I've written this unpaid, voluntarily, in my free-time and uploaded it on GitHub to share. It's totally free, for private and commercial use. If you don't like it, don't use it. If you see issues, then please write a ticket (and if you are really cool: I'm very thankful for any commits!). But don't bash, don't complain, don't hate. Only bad people do so.
 
 ## Changelog
 
