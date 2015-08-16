@@ -114,10 +114,6 @@ This means you can use and modify it for free in private or commercial projects.
 If you want to support TINY, then rent your next server at [Host1Plus](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html) or 
 [DigitalOcean](https://www.digitalocean.com/?refcode=40d978532a20).
 
-## TODO: documentation
-
-A very early documentation can be found on [php-mini.com/documentation](http://php-mini.com/documentation/).
-
 ## Quick-Start
 
 #### The structure in general
