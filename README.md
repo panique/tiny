@@ -72,7 +72,7 @@ To prevent people from looking into folders there are several index.php in these
 exit(header('HTTP/1.0 403 Forbidden'));
 ```
 
-##Servers configs for
+## Servers configs for
 
 ### NGINX
 
