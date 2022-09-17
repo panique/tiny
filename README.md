@@ -111,8 +111,9 @@ This means you can use and modify it for free in private or commercial projects.
 
 ## Support
 
-If you want to support TINY, then rent your next server at [Host1Plus](https://affiliates.host1plus.com/ref/devmetal/36f4d828.html) or 
-[DigitalOcean](https://www.digitalocean.com/?refcode=40d978532a20).
+If you want to support TINY, then rent your next server at [DigitalOcean](https://www.digitalocean.com/?refcode=40d978532a20) or just tip a coffee at BuyMeACoffee.com. Thanks! :)
+
+<a href="https://www.buymeacoffee.com/panique" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Quick-Start
 
